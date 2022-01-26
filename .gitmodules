@@ -1,3 +1,3 @@
 [submodule "base-rest-app-cs-template"]
 	path = base-rest-app-cs-template
-	url = git@github.com:Orangestack-com/base-rest-app-cs-template.git
+	url = https://github.com/stack-spot/base-rest-app-cs-template.git

@@ -1,3 +1,6 @@
 [submodule "rest-app-cs-template"]
 	path = rest-app-cs-template
 	url = https://github.com/stack-spot/rest-app-cs-template.git
+[submodule "logging-app-cs-plugin"]
+	path = logging-app-cs-plugin
+	url = https://github.com/stack-spot/logging-app-cs-plugin.git

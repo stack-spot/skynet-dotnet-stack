@@ -10,3 +10,6 @@
 [submodule "secrets-app-cs-plugin"]
 	path = secrets-app-cs-plugin
 	url = https://github.com/stack-spot/secrets-app-cs-plugin.git
+[submodule "queue-app-cs-plugin"]
+	path = queue-app-cs-plugin
+	url = https://github.com/stack-spot/queue-app-cs-plugin.git

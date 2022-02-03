@@ -7,3 +7,6 @@
 [submodule "metrics-app-cs-plugin"]
 	path = metrics-app-cs-plugin
 	url = https://github.com/stack-spot/metrics-app-cs-plugin.git
+[submodule "secrets-app-cs-plugin"]
+	path = secrets-app-cs-plugin
+	url = https://github.com/stack-spot/secrets-app-cs-plugin.git

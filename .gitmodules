@@ -4,3 +4,6 @@
 [submodule "logging-app-cs-plugin"]
 	path = logging-app-cs-plugin
 	url = https://github.com/stack-spot/logging-app-cs-plugin.git
+[submodule "metrics-app-cs-plugin"]
+	path = metrics-app-cs-plugin
+	url = https://github.com/stack-spot/metrics-app-cs-plugin.git

@@ -13,3 +13,6 @@
 [submodule "queue-app-cs-plugin"]
 	path = queue-app-cs-plugin
 	url = https://github.com/stack-spot/queue-app-cs-plugin.git
+[submodule "trace-app-cs-plugin"]
+	path = trace-app-cs-plugin
+	url = https://github.com/stack-spot/trace-app-cs-plugin.git

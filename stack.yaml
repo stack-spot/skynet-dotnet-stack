@@ -1,0 +1,19 @@
+description: A stack de dotnet possui recursos para apoiar a estruturação e modernização de projetos de software.
+
+name: skynet-dotnet-stack
+
+displayName: dotnet Stack
+
+picture: "stack.png"
+
+category: backend
+
+compatibility:
+  - net5.0
+  - net6.0
+
+technologies: [".NET", "C#"]
+
+about: about.md
+
+useCase: useCase.md

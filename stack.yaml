@@ -1,18 +1,18 @@
-description: A stack de dotnet possui recursos para apoiar a estruturação e modernização de projetos de software.
+description: Desenhe, desenvolva e publique APIs para conectar softwares da empresa no seu produto.
 
 name: skynet-dotnet-stack
 
-displayName: dotnet Stack
+displayName: Stack API
 
 picture: "stack.png"
 
-category: backend
+category: Backend
 
 compatibility:
   - net5.0
   - net6.0
 
-technologies: [".NET", "C#"]
+technologies: [".NET", "C#", "Api", "OpenAPI", "Splunk", "Prometheus", "Jaeger", "AWS SQS", "AWS DynamoDB", "Docker", "AWS ECS/Fargate"]
 
 about: about.md
 

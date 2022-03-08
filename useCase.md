@@ -1,6 +1,6 @@
  Desenhe, desenvolva e publique APIs para conectar softwares da empresa no seu produto. Nossa stack API inclui suporte ao protocolo REST, OpenAPI, Clean Arch, observabilidade, conexão com filas, bancos de dados NoSQL, rodando sobre containers Docker na AWS.
 
- !["Caso de Uso"](use-case.png)
+ !["Caso de Uso"](https://github.com/stack-spot/skynet-dotnet-stack/blob/main/use-case.png)
 
  #### Logging
 
@@ -38,7 +38,7 @@ Medir a quantidade de requisições em um edpoint crítico ou monitorar o tamanh
 
 #### Queue
 Imagine estar em um ambiente descentralizado voltado à microserviços e que possua diversas comunicações entre eles através de filas de mensagens. Configurar e implementar o manuseio dessas filas será mais simples com o **queue plugin**. Assim como criar uma classe, será o que você precisará para comunicar com sua fila AWS SQS.
- !["Caso de Uso"](use-case-queue.png)
+ !["Caso de Uso"](https://github.com/stack-spot/skynet-dotnet-stack/blob/main/use-case-queue.png)
 
 #### Secrets
 Lidar com informações sensíveis de sistemas com chaves de APIs, tokens de autenticação ou conexões com bases de dados, tendo em vista a utilização de um Secret Manager como o da AWS ficará mais fácil e seguro com o **secrets plugin** onde ele simplifica o consumo dessas informações e você poderá utilizar no momento que desejar dentro de sua aplicação.

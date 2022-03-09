@@ -1,46 +1,26 @@
- Desenhe, desenvolva e publique APIs para conectar softwares da empresa no seu produto. Nossa stack API inclui suporte ao protocolo REST, OpenAPI, Clean Arch, observabilidade, conexão com filas, bancos de dados NoSQL, rodando sobre containers Docker na AWS.
+Para times de desenvolvimento que têm a necessidade de conectar softwares de sua empresa através de uma API nossa Stack oferece velocidade e confiança neste processo.
 
- !["Caso de Uso"](https://raw.githubusercontent.com/stack-spot/skynet-dotnet-stack/main/use-case.png)
+Iniciando seu produto através de nosso template base, trazemos o benefício onde o projeto já pode ser buildado e executado localmente.Vale ressaltar que nossa Stack  não é intrusiva, criamos código para ajudar times de desenvolvimento, cada desenvolvedor opta pelo o que quer usar.
+
+Aplicando o projeto base pode-se adicionar capacidades ao seu template base tais como: 
 
  #### Logging
 
- Se possui vários projetos, microserviços e ou rotinas, com esse plugin você conseguirá manter a qualidade e padrão de informações de log para todas elas considerando diferentes níveis de log, permitindo definir Tags para que você consiga quantificar e/ou classificar erros trazendo uma visão de falhas recorrentes ou permitindo a prevenção de problemas futuros. 
- Poderá utilizar-se de ferramentas como Splunk ou AWS Cloud Watch para monitorar e visualizar os dados e garantindo observabilidade de suas aplicações.
-
-**Exemplo:**
- ```json
-    {
-        "timeStamp": "2021-04-06T14:50:33.6610795Z",
-        "appName": "MyAppName",
-        "message": "An unhandled exception has occurred while executing the request.",
-        "logger": "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware",
-        "level": "ERROR",
-        "tags": ["Tag01", "Tag02"],
-        "data": {
-            "field1": "Test01",
-            "field2": "Test02"
-        },
-        "exception": {
-            "name": "DivideByZeroException",
-            "message": "Attempted to divide by zero.",
-            "stackTrace": "   at Sample.WebApi.Controllers.SampleController.Get() in ..."
-        },
-        "context": {
-            "spanId": "1af157b8bee48886",
-            "traceId": "1af157b8bee48886",
-            "correlationId": "614bc03a1eab685315a897fe1405a935"
-        }
-    }
- ```
+ Se possui vários projetos, micro serviços e ou rotinas, com esse plugin você conseguirá manter a qualidade e padrão de informações de log para todas elas considerando diferentes níveis de log, permitindo definir Tags para que você consiga quantificar e/ou classificar erros trazendo uma visão de falhas recorrentes ou permitindo a prevenção de problemas futuros. Oferecemos a facilidade de integração com ferramentas como Splunk ou AWS Cloud Watch para monitorar e visualizar os dados e garantindo observabilidade de suas aplicações.
 
  #### Metrics
-Medir a quantidade de requisições em um edpoint crítico ou monitorar o tamanho de payloads que são enviados para sua API, com o **metrics plugin** é possível e muito mais para trazer informações e permitir diagnóstico, alertas e relatórios que ajudarão a garantir a disponibilidade e resiliência das APIs.
+
+Através do plugin de Metric facilitamos a medição da quantidade de requisições em um endpoint crítico ou monitorar o tamanho de payloads que são enviados para sua APIs.
 
 #### Queue
-Imagine estar em um ambiente descentralizado voltado à microserviços e que possua diversas comunicações entre eles através de filas de mensagens. Configurar e implementar o manuseio dessas filas será mais simples com o **queue plugin**. Assim como criar uma classe, será o que você precisará para comunicar com sua fila AWS SQS.
- !["Caso de Uso"](https://raw.githubusercontent.com/stack-spot/skynet-dotnet-stack/main/use-case-queue.png)
+
+Imagine estar em um ambiente descentralizado voltado à micro serviços e que possua diversas comunicações entre eles através de filas de mensagens. Configurar e implementar o manuseio dessas filas será mais simples com o queue plugin. Assim como criar uma classe, abstraindo toda a complexidade para comunicação com sua fila AWS SQS.
 
 #### Secrets
-Lidar com informações sensíveis de sistemas com chaves de APIs, tokens de autenticação ou conexões com bases de dados, tendo em vista a utilização de um Secret Manager como o da AWS ficará mais fácil e seguro com o **secrets plugin** onde ele simplifica o consumo dessas informações e você poderá utilizar no momento que desejar dentro de sua aplicação.
 
+Lidar com informações sensíveis de sistemas com chaves de APIs, tokens de autenticação ou conexões com bases de dados, tendo em vista a utilização de um Secret Manager como o da AWS ficará mais fácil e seguro com o secrets plugin onde ele simplifica o consumo dessas informações e você poderá utilizar no momento que desejar dentro de sua aplicação.
+Ao fim do ciclo de desenvolvimento utilizando todas as capacidades que nossa Stack oferece podemos ter uma estrutura completa como ilustra imagem abaixo:
 
+![Caso de Uso](use-case.png "Caso de Uso")
+
+Veja mais detalhes de cada plugin disponível através do menu lateral esquerdo onde vocês podem ver detalhes mais aprofundados de cada um, casos de uso é forma de uso. 

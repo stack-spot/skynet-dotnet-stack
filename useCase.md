@@ -19,8 +19,11 @@ Imagine estar em um ambiente descentralizado voltado à micro serviços e que po
 #### Secrets
 
 Lidar com informações sensíveis de sistemas com chaves de APIs, tokens de autenticação ou conexões com bases de dados, tendo em vista a utilização de um Secret Manager como o da AWS ficará mais fácil e seguro com o secrets plugin onde ele simplifica o consumo dessas informações e você poderá utilizar no momento que desejar dentro de sua aplicação.
+
+
+
 Ao fim do ciclo de desenvolvimento utilizando todas as capacidades que nossa Stack oferece podemos ter uma estrutura completa como ilustra imagem abaixo:
 
-![Caso de Uso](use-case.png "Caso de Uso")
+![Caso de Uso](https://raw.githubusercontent.com/stack-spot/skynet-dotnet-stack/main/use-case.png "Caso de Uso")
 
 Veja mais detalhes de cada plugin disponível através do menu lateral esquerdo onde vocês podem ver detalhes mais aprofundados de cada um, casos de uso é forma de uso. 

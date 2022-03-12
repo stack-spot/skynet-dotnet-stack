@@ -16,9 +16,10 @@ technologies: [".NET", "C#", "Api", "OpenAPI", "Splunk", "Prometheus", "Jaeger",
 
 about: about.md
 
-useCase: useCase.md
-
 useCases:
   - title: Criar sua API
     content: useCase.md
     stackfile: stackfiles/default.yaml
+  - title: Criar sua API com Observability 
+    content: useCase-observability.md
+    stackfile: stackfiles/api-observability.yaml

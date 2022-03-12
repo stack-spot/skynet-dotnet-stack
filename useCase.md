@@ -52,7 +52,7 @@ Aplicando o projeto base pode-se adicionar capacidades ao seu template base tais
 
 #### Metrics
 
-Através do plugin de Metric facilitamos a medição da quantidade de requisições em um endpoint crítico ou monitorar o tamanho de payloads que são enviados para sua API.
+Através do plugin de Metrics facilitamos a medição da quantidade de requisições em um endpoint crítico ou monitorar o tamanho de payloads que são enviados para sua API.
 
 #### Trace
 

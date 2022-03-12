@@ -22,4 +22,4 @@ useCases:
     stackfile: stackfiles/default.yaml
   - title: Criar sua API com Observability 
     content: useCase-observability.md
-    stackfile: stackfiles/default.yaml
+    stackfile: stackfiles/api-observability.yaml

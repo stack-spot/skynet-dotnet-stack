@@ -4,11 +4,6 @@ Iniciando seu produto através de nosso template base, trazemos o benefício ond
 
 Para começar sua jornada de desenvolvimento utilizando os recursos disponibilizados pelo Estúdio Skynet aplique o template base para iniciar o desenvolvimento de uma API completa usando C#, .NET e REST, rodando em um cluster de contêiner. 
 
-Para utilizar nosso template utilize o comando do `cli` do `StackSpot`: 
-```
-    stk create app <app name> --template skynet-dotnet-stack/rest-app-cs-template
-```
-
 ### Visão Geral
 O **rest-app-cs-template** adiciona em uma stack a capacidade de provisionar serviços rest.
 
@@ -37,7 +32,7 @@ Realize também a compilação do projeto, através do comando abaixo:
     dotnet build
 ```
 
-Para testar a aplicação, acesse o diretório que contém o projeto da API. O nome do diretório é o `<app name>.Api`. Dentro deste diretório se encontra a `Solution` e os demais arquivos do projeto, execute o seguinte comando:
+Para testar a aplicação, acesse o diretório que contém o projeto da API. O nome do diretório é o `<meu App>.Api`. Dentro deste diretório se encontra a `Solution` e os demais arquivos do projeto, execute o seguinte comando:
 
 ```bash
     dotnet run
@@ -51,13 +46,17 @@ Com a aplicação em execução, acesse a url https://localhost:5001/swagger, ac
 
 Aplicando o projeto base pode-se adicionar capacidades ao seu template base tais como: 
 
- #### Logging
+#### Logging
 
  Se possui vários projetos, micro serviços e ou rotinas, com esse plugin você conseguirá manter a qualidade e padrão de informações de log para todas elas considerando diferentes níveis de log, permitindo definir Tags para que você consiga quantificar e/ou classificar erros trazendo uma visão de falhas recorrentes ou permitindo a prevenção de problemas futuros. Oferecemos a facilidade de integração com ferramentas como Splunk ou AWS Cloud Watch para monitorar e visualizar os dados e garantindo observabilidade de suas aplicações.
 
- #### Metrics
+#### Metrics
 
-Através do plugin de Metric facilitamos a medição da quantidade de requisições em um endpoint crítico ou monitorar o tamanho de payloads que são enviados para sua APIs.
+Através do plugin de Metrics facilitamos a medição da quantidade de requisições em um endpoint crítico ou monitorar o tamanho de payloads que são enviados para sua API.
+
+#### Trace
+
+Através do plugin de Trace facilitamos a instrumentação de telemetria da sua API através do Opentelemetry com exporter para Jaeger e AWS X-Ray.
 
 #### Queue
 

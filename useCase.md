@@ -1,14 +1,14 @@
-Para times de desenvolvimento que têm a necessidade de conectar softwares de sua empresa através de uma API nossa Stack oferece velocidade e confiança neste processo.
+Oferecemos velocidade e confiança através de nossa Stack para times de desenvolvimento,  no processo de conectar softwares de sua empresa através de uma API.  
 
-Iniciando seu produto através de nosso template base, trazemos o benefício onde o projeto já pode ser buildado e executado localmente. Vale ressaltar que nossa Stack não é intrusiva, criamos código para ajudar times de desenvolvimento, cada desenvolvedor opta pelo o que quer usar.
+Iniciando seu produto através de nosso template base, trazemos o benefício onde você pode buildar e executar o projeto localmente. . Ressaltamos que nossa Stack não é intrusiva, criamos código para ajudar times de desenvolvimento, mas cada desenvolvedor opta pelo o que prefere usar.  
 
-Para começar sua jornada de desenvolvimento utilizando os recursos disponibilizados pelo Estúdio Skynet aplique o template base para iniciar o desenvolvimento de uma API completa usando C#, .NET e REST, rodando em um cluster de contêiner. 
+Para começar sua jornada de desenvolvimento utilizando os recursos disponibilizados pelo Estúdio Skynet aplique o template base para iniciar o desenvolvimento de uma API completa usando C#, .NET e REST, rodando em um cluster de contêiner.  
 
 ### Visão Geral
 O **rest-app-cs-template** adiciona em uma stack a capacidade de provisionar serviços rest.
 
 ### Pré-requisitos
-Para utilizar esse template você precisa utilizar o `cli` do `StackSpot` que você pode baixar [**aqui**](https://stackspot.com.br/).
+Para utilizar esse template você precisa utilizar o `CLI` do `StackSpot` que você pode baixar [**aqui**](https://stackspot.com.br/).
 - .NET 5 e/ou 6 instalados.
 
 ### Inputs
@@ -20,7 +20,7 @@ Os inputs necessários para utilizar o template são:
 
 ## Execução do projeto criado
 
-Após criar o projeto, acesse o diretório `src` e execute o seguinte comando:
+Após criar o projeto, acesse o diretório `src` onde se econtra a `Solution` e os demais arquivos do projeto. Execute o seguinte comando:
 
 ```bash
     dotnet restore
@@ -32,7 +32,7 @@ Realize também a compilação do projeto, através do comando abaixo:
     dotnet build
 ```
 
-Para testar a aplicação, acesse o diretório que contém o projeto da API. O nome do diretório é o `<meu App>.Api`. Dentro deste diretório se encontra a `Solution` e os demais arquivos do projeto, execute o seguinte comando:
+Para testar a aplicação, acesse o diretório que contém o projeto da API. O nome do diretório é o `<meu App>.Api`. Execute o seguinte comando:
 
 ```bash
     dotnet run
@@ -40,7 +40,7 @@ Para testar a aplicação, acesse o diretório que contém o projeto da API. O n
 
 > Dica: Você também pode utilizar uma IDE (VSCode, Visual Studio) de sua preferência para realizar os passos acima.
 
-Com a aplicação em execução, acesse a url https://localhost:5001/swagger, acesse os detalhes da aplicação e clique em "Ir para localhost (não seguro)". Ao acessar o endereço acima, você poderá ver a documentação (*Swagger*) de sua aplicação.
+Com a aplicação em execução, acesse a url https://localhost:5001/swagger, acesse os detalhes da aplicação e clique em "Ir para localhost (não seguro)" no Chrome. Ao acessar o endereço acima, você poderá ver a documentação (*Swagger*) da sua aplicação.
 
 > Dica: Neste caso, a estrutura de projeto com exemplo foi criada automaticamente. 
 

@@ -1,6 +1,6 @@
 Desenhe, desenvolva e publique APIs para conectar softwares da empresa no seu produto. Nossa stack inclui suporte ao protocolo REST, Clean Arch, observabilidade, conexão com filas, além de rodar sobre containers Docker na AWS.  
 
-A nossa Stack apresenta uma estrutura básica onde o template inicia todo o ciclo do desenvolvimento, definindo a linguagem, o framework e arquitetura, garantindo que a aplicação possa ser "buildada" e executada localmente.  
+A nossa Stack apresenta uma estrutura básica onde o template inicia todo o ciclo do desenvolvimento, definindo a linguagem, o framework e arquitetura, garantindo que a aplicação possa ser compilada e executada localmente.  
 
 Ao usar a Stack API, é possível adicionar “superpoderes” ao seu template utilizando nossos plugins, como a capacidade de logs centralizados, publicação de métricas no Prometheus ou conexão com um banco de dados, por exemplo.  
 

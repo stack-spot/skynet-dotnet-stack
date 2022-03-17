@@ -59,17 +59,9 @@ Através do plugin de Metrics facilitamos a medição da quantidade de requisiç
 
 Através do plugin de Trace facilitamos a instrumentação de telemetria da sua API através do Opentelemetry com exporter para Jaeger e AWS X-Ray.
 
-#### Queue
-
-Imagine estar em um ambiente descentralizado voltado a microsserviços e que possua diversas comunicações entre eles através de filas de mensagens. Configurar e implementar o manuseio dessas filas será mais simples com o Queue plugin. Assim como criar uma classe, abstraindo toda a complexidade para comunicação com sua fila AWS SQS.
-
-#### Secrets
-
-Lidar com informações sensíveis de sistemas com chaves de APIs, tokens de autenticação ou conexões com bases de dados, tendo em vista a utilização de um Secret Manager como o da AWS ficará mais fácil e seguro com o Secrets plugin. Ele simplifica o consumo dessas informações, que você poderá utilizar no momento que desejar dentro de sua aplicação.  
-
   
 Ao fim do ciclo de desenvolvimento, utilizando todas as capacidades que nossa Stack oferece, podemos ter uma estrutura completa como ilustra a imagem abaixo:
 
-![Caso de Uso](https://raw.githubusercontent.com/stack-spot/skynet-dotnet-stack/main/use-case.png "Caso de Uso")
+![Caso de Uso](https://raw.githubusercontent.com/stack-spot/skynet-dotnet-stack/main/use-case-observability.png "Caso de Uso")
 
 Veja mais detalhes de cada plugin, casos e formas de uso disponíveis através do menu lateral esquerdo. 

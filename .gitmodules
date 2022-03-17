@@ -16,3 +16,6 @@
 [submodule "trace-app-cs-plugin"]
 	path = trace-app-cs-plugin
 	url = https://github.com/stack-spot/trace-app-cs-plugin.git
+[submodule "bucket-app-cs-plugin"]
+	path = bucket-app-cs-plugin
+	url = https://github.com/stack-spot/bucket-app-cs-plugin.git

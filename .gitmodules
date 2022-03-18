@@ -19,3 +19,6 @@
 [submodule "bucket-app-cs-plugin"]
 	path = bucket-app-cs-plugin
 	url = https://github.com/stack-spot/bucket-app-cs-plugin.git
+[submodule "repository-app-cs-plugin"]
+	path = repository-app-cs-plugin
+	url = git@github.com:stack-spot/repository-app-cs-plugin.git

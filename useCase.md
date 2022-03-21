@@ -66,6 +66,17 @@ Imagine estar em um ambiente descentralizado voltado à micro serviços e que po
 
 Lidar com informações sensíveis de sistemas com chaves de APIs, tokens de autenticação ou conexões com bases de dados, tendo em vista a utilização de um Secret Manager como o da AWS ficará mais fácil e seguro com o secrets plugin onde ele simplifica o consumo dessas informações e você poderá utilizar no momento que desejar dentro de sua aplicação.  
 
+#### Bucket
+
+Manipule arquivos utilizando este plugin que facilita a instrumentação com a Amazon Simple Storage Service (S3), eliminando a complexidade.
+
+#### Repository
+
+Armazenar dados ou documentos de forma trivial é um desafio para quase todos os sistemas, e com esse plugin você tem todas as capacidades do AWS DynamoDB disponíveis de forma simples e rápida.
+
+#### Authentication
+
+Através deste plugin facilitamos a capacidade de verificar se um usuário/API possui acesso a um determinado recurso restrito trazendo segurança para sua API.
   
 Ao fim do ciclo de desenvolvimento utilizando todas as capacidades que nossa Stack oferece podemos ter uma estrutura completa como ilustra imagem abaixo:
 

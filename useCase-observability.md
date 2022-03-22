@@ -1,4 +1,4 @@
-Oferecemos velocidade e confiança através de nossa Stack para times de desenvolvimento,  no processo de conectar softwares da sua empresa através de uma API.  
+Oferecemos velocidade e confiança através de nossa Stack para times de desenvolvimento, no processo de conectar softwares da sua empresa através de uma API.  
 
 Ao iniciar o seu produto através do nosso template base, trazemos a possibilidade de você compilar e executar o projeto localmente. É importante lembrar que a nossa Stack não é intrusiva. Nós criamos código para ajudar times de desenvolvimento, mas cada desenvolvedor opta pelo que prefere usar.  
 

@@ -1,4 +1,5 @@
 type: app
+displayName: Template com Observability
 description: Template para desenvolver uma API completa usando C# e REST, em execução em um cluster de contêiner com suporte a logging, metrics e trace.
 template: skynet-dotnet-stack/rest-app-cs-template
 plugins:

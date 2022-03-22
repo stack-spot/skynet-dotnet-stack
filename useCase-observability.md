@@ -1,3 +1,5 @@
+Inicie sua jornada de desenvolvimento utilizando os recursos disponibilizados pelo Estúdio Skynet, aplique o nossa API que contém uma estrutura completa de observabilidade. Nossa Stack apresenta uma estrutura que utiliza C#, .NET e REST, rodando em um cluster de contêiner, além de contemplar estrutura base de observabilidade que contém: Logging, Trace e Metrics! Nossa API contém uma fácil configuração, desde início de sua jornada (CLI), até a manutenção do código gerado pela nossa Stack.
+
 Oferecemos velocidade e confiança através de nossa Stack para times de desenvolvimento, no processo de conectar softwares da sua empresa através de uma API.  
 
 Ao iniciar o seu produto através do nosso template base, trazemos a possibilidade de você compilar e executar o projeto localmente. É importante lembrar que a nossa Stack não é intrusiva. Nós criamos código para ajudar times de desenvolvimento, mas cada desenvolvedor opta pelo que prefere usar.  

@@ -1,3 +1,3 @@
 type: app
-description: template para desenvolver uma API completa usando C# e REST, em execução em um cluster de contêiner.
+description: Template para desenvolver uma API completa usando C# e REST, em execução em um cluster de contêiner.
 template: skynet-dotnet-stack/rest-app-cs-template

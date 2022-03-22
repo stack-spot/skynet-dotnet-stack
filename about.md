@@ -1,4 +1,4 @@
-Desenhe, desenvolva e publique APIs para conectar softwares da empresa no seu produto. Nossa stack inclui suporte ao protocolo REST, Clean Arch, observabilidade, conexão com filas, além de rodar sobre containers Docker na AWS.  
+Desenvolva e publique APIs para conectar softwares da empresa no seu produto com nossa Stack cloud native .NET. Nossa stack inclui suporte ao protocolo REST, Clean Arch, observabilidade, conexão com filas, além de rodar sobre containers Docker na AWS.  
 
 A nossa Stack apresenta uma estrutura básica onde o template inicia todo o ciclo do desenvolvimento, definindo a linguagem, o framework e arquitetura, garantindo que a aplicação possa ser compilada e executada localmente.  
 

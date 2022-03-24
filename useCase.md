@@ -10,7 +10,7 @@ O **rest-app-cs-template** adiciona em uma stack a capacidade de provisionar ser
 ### Pré-requisitos
 Para utilizar esse template você precisa utilizar o `CLI` do `StackSpot` que você pode baixar [**aqui**](https://stackspot.com.br/).
 - .NET 5 e/ou 6 instalados.
-- Caso não tenha a opção de configuração do **.NET 5 disponível no Service Now**, siga as orientações descritas neste [**link**](https://confluence-itau.tecnologia.prod.ops.aws.cloud.ihf/x/GDaYJ)
+- Ao criar sua pipeline da AWS **e não encontrar no campo "Runtime" a opção do dotnet: 5.0**, siga as orientações descritas neste [**link**](https://confluence-itau.tecnologia.prod.ops.aws.cloud.ihf/x/GDaYJ).
 
 ### Inputs
 Os inputs necessários para utilizar o template são:

@@ -21,23 +21,64 @@ Os inputs necessários para utilizar o template são:
 
 ## Execução do projeto criado
 
-Após criar o projeto, acesse o diretório `src` onde se econtra a `Solution` e os demais arquivos do projeto. Execute o seguinte comando:
+Após criar o projeto, acesse o diretório onde se encontra a `Solution` e os demais arquivos do projeto. Execute o seguinte comando:
 
 ```bash
-    dotnet restore
+    dotnet restore <meu App>.Api.sln
 ```
 
 Realize também a compilação do projeto, através do comando abaixo:
 
 ```bash
-    dotnet build
+    dotnet build <meu App>.Api.sln
 ```
 
-Para testar a aplicação, acesse o diretório que contém o projeto da API. O nome do diretório é o `<meu App>.Api`. Execute o seguinte comando:
+Realize a execução dos testes unitários e de integração. Execute o seguinte comando:
 
 ```bash
-    dotnet run
+dotnet test <meu App>.Api.sln
 ```
+
+Para testar a aplicação, ainda no mesmo diretório da `Solution`. Execute o seguinte comando:
+
+```bash
+    dotnet run --project ./src/<meu App>.Api/<meu App>.Api.csproj
+```
+
+### Configuração do Docker
+
+Para que o Docker funcione, você precisará adicionar um certificado SSL temporário e montar um volume para manter esse certificado.
+Você pode encontrar no [Microsoft Docs](https://docs.microsoft.com/en-us/aspnet/core/security/docker-https?view=aspnetcore-6.0) que descrevem as etapas necessárias para Windows, macOS e Linux.
+
+Para Windows:
+O seguinte precisará ser executado a partir do seu terminal para criar um certificado:
+
+```bash
+dotnet dev-certs https -ep %USERPROFILE%\.aspnet\https\aspnetapp.pfx -p Your_password123
+dotnet dev-certs https --trust
+```
+
+NOTA: Ao usar o PowerShell, substitua %USERPROFILE% por $env:USERPROFILE.
+
+PARA macOS:
+```bash
+dotnet dev-certs https -ep ${HOME}/.aspnet/https/aspnetapp.pfx -p Your_password123
+dotnet dev-certs https --trust
+```
+
+PARA Linux:
+```bash
+dotnet dev-certs https -ep ${HOME}/.aspnet/https/aspnetapp.pfx -p Your_password123
+dotnet dev-certs https --trust
+```
+
+Para construir e executar os containers docker, execute o comando abaixo na raiz da solução onde você encontra o arquivo docker-compose.yml
+
+ ```bash
+ docker-compose -f 'docker-compose.yml' up --build
+ ```
+
+Em seguida, abra http://localhost:5000 no seu navegador.
 
 > Dica: Você também pode utilizar uma IDE (VSCode, Visual Studio) de sua preferência para realizar os passos acima.
 

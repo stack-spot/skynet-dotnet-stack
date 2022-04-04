@@ -103,6 +103,9 @@ Através do plugin de Metrics facilitamos a medição da quantidade de requisiç
 
 Através do plugin de Trace facilitamos a instrumentação de telemetria da sua API através do Opentelemetry com exporter para Jaeger e AWS X-Ray.
 
+#### ErrorHandler
+
+Manipule, padronize e personalize os retornos de erro em sua api REST.
   
 Ao fim do ciclo de desenvolvimento, utilizando todas as capacidades que nossa Stack oferece, podemos ter uma estrutura completa como ilustra a imagem abaixo:
 

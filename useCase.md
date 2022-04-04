@@ -119,7 +119,11 @@ Armazenar dados ou documentos de forma trivial é um desafio para quase todos os
 #### Authentication
 
 Através deste plugin facilitamos a capacidade de verificar se um usuário/API possui acesso a um determinado recurso restrito trazendo segurança para sua API.
-  
+
+#### ErrorHandler
+
+Manipule, padronize e personalize os retornos de erro em sua api REST.
+
 Ao fim do ciclo de desenvolvimento utilizando todas as capacidades que nossa Stack oferece podemos ter uma estrutura completa como ilustra imagem abaixo:
 
 ![Caso de Uso](https://raw.githubusercontent.com/stack-spot/skynet-dotnet-stack/main/use-case.png "Caso de Uso")

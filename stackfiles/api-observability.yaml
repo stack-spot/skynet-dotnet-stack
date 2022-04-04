@@ -6,3 +6,4 @@ plugins:
   - plugin: skynet-dotnet-stack/logging-app-cs-plugin
   - plugin: skynet-dotnet-stack/metrics-app-cs-plugin
   - plugin: skynet-dotnet-stack/trace-app-cs-plugin
+  - plugin: skynet-dotnet-stack/errorhandler-app-cs-plugin  

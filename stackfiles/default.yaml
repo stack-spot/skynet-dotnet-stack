@@ -2,3 +2,5 @@ type: app
 displayName: Template Básico
 description: Template para desenvolver uma API completa usando C# e REST, em execução em um cluster de contêiner.
 template: skynet-dotnet-stack/rest-app-cs-template
+plugins:
+  - plugin: skynet-dotnet-stack/errorhandler-app-cs-plugin

@@ -25,3 +25,6 @@
 [submodule "authentication-app-cs-plugin"]
 	path = authentication-app-cs-plugin
 	url = https://github.com/stack-spot/authentication-app-cs-plugin.git
+[submodule "errorhandler-app-cs-plugin"]
+	path = errorhandler-app-cs-plugin
+	url = https://github.com/stack-spot/errorhandler-app-cs-plugin.git

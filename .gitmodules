@@ -28,3 +28,6 @@
 [submodule "errorhandler-app-cs-plugin"]
 	path = errorhandler-app-cs-plugin
 	url = https://github.com/stack-spot/errorhandler-app-cs-plugin.git
+[submodule "grpc-app-cs-plugin"]
+	path = grpc-app-cs-plugin
+	url = https://github.com/stack-spot/grpc-app-cs-plugin.git

@@ -124,6 +124,10 @@ Através deste plugin facilitamos a capacidade de verificar se um usuário/API p
 
 Manipule, padronize e personalize os retornos de erro em sua api REST.
 
+#### gRPC
+
+Através deste plugin é possível adicionar capacidade de expor serviços `gRPC` e suas configurações, bem como prover a criação de um `gRPC Client` que permite a distribuição e consumo desse serviço em outras aplicações.
+
 Ao fim do ciclo de desenvolvimento utilizando todas as capacidades que nossa Stack oferece podemos ter uma estrutura completa como ilustra imagem abaixo:
 
 ![Caso de Uso](https://raw.githubusercontent.com/stack-spot/skynet-dotnet-stack/main/use-case.png "Caso de Uso")

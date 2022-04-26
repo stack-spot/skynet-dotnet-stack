@@ -8,6 +8,8 @@ picture: "stack.png"
 
 category: Backend
 
+source: https://gitcorp.prod.aws.cloud.ihf/FW4/stack-spot/skynet-studio/skynet-dotnet-stack
+
 compatibility:
   - net5.0
   - net6.0

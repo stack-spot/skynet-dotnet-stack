@@ -31,3 +31,6 @@
 [submodule "grpc-app-cs-plugin"]
 	path = grpc-app-cs-plugin
 	url = https://github.com/stack-spot/grpc-app-cs-plugin.git
+[submodule "notification-app-cs-plugin"]
+	path = notification-app-cs-plugin
+	url = https://github.com/stack-spot/notification-app-cs-plugin
